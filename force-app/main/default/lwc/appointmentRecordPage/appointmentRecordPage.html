@@ -1,0 +1,16 @@
+<template>
+    <lightning-card  title="Hello">
+        <div>
+            <template if:true={patientRecords}>
+                <lightning-record-form
+                    object-api-name="Patient__c"
+                    record-id={recordId}
+                    fields={PATIENT_FIELDS}
+                    layout-type="Compact"
+                    mode="edit"
+                    onsuccess={handleSuccess}>
+                </lightning-record-form>
+            </template>
+        </div>
+    </lightning-card>
+</template>

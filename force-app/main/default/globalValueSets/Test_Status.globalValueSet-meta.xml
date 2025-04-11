@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ordered</fullName>
+        <default>false</default>
+        <label>Ordered</label>
+    </customValue>
+    <customValue>
+        <fullName>Sample Collected</fullName>
+        <default>false</default>
+        <label>Sample Collected</label>
+    </customValue>
+    <customValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Abnormal Results</fullName>
+        <default>false</default>
+        <label>Abnormal Results</label>
+    </customValue>
+    <customValue>
+        <fullName>Normal Results</fullName>
+        <default>false</default>
+        <label>Normal Results</label>
+    </customValue>
+    <masterLabel>Test Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
