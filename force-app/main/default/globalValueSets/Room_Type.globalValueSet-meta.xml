@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>General Ward</fullName>
+        <default>false</default>
+        <label>General Ward</label>
+    </customValue>
+    <customValue>
+        <fullName>Semi-Private</fullName>
+        <default>false</default>
+        <label>Semi-Private</label>
+    </customValue>
+    <customValue>
+        <fullName>Private</fullName>
+        <default>false</default>
+        <label>Private</label>
+    </customValue>
+    <customValue>
+        <fullName>ICU</fullName>
+        <default>false</default>
+        <label>ICU</label>
+    </customValue>
+    <customValue>
+        <fullName>Isolation</fullName>
+        <default>false</default>
+        <label>Isolation</label>
+    </customValue>
+    <masterLabel>Room Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

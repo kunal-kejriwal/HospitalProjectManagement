@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Once a day</fullName>
+        <default>false</default>
+        <label>Once a day</label>
+    </customValue>
+    <customValue>
+        <fullName>Twice a day</fullName>
+        <default>false</default>
+        <label>Twice a day</label>
+    </customValue>
+    <customValue>
+        <fullName>Thrice a day</fullName>
+        <default>false</default>
+        <label>Thrice a day</label>
+    </customValue>
+    <customValue>
+        <fullName>As Needed</fullName>
+        <default>false</default>
+        <label>As Needed</label>
+    </customValue>
+    <masterLabel>Dosage Frequency</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

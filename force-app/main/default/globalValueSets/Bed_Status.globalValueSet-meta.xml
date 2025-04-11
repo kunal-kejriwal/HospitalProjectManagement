@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Occupied</fullName>
+        <default>false</default>
+        <label>Occupied</label>
+    </customValue>
+    <customValue>
+        <fullName>Available</fullName>
+        <default>false</default>
+        <label>Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Under Maintenance</fullName>
+        <default>false</default>
+        <label>Under Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>Reserved</fullName>
+        <default>false</default>
+        <label>Reserved</label>
+    </customValue>
+    <masterLabel>Bed Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
