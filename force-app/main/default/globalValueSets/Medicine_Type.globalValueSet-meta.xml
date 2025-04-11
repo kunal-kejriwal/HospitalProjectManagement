@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Tablet</fullName>
+        <default>false</default>
+        <label>Tablet</label>
+    </customValue>
+    <customValue>
+        <fullName>Capsule</fullName>
+        <default>false</default>
+        <label>Capsule</label>
+    </customValue>
+    <customValue>
+        <fullName>Syrup</fullName>
+        <default>false</default>
+        <label>Syrup</label>
+    </customValue>
+    <customValue>
+        <fullName>Injection</fullName>
+        <default>false</default>
+        <label>Injection</label>
+    </customValue>
+    <customValue>
+        <fullName>Ointment</fullName>
+        <default>false</default>
+        <label>Ointment</label>
+    </customValue>
+    <masterLabel>Medicine Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

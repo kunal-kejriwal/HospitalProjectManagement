@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Doctor Records by Availability">
+      <div class="slds-m-around_medium">
+        <lightning-combobox
+          label="Select Availability Status"
+          value={availabilityStatus}
+          options={options}
+          onchange={handleChange}>
+        </lightning-combobox>
+
+        <lightning-combobox
+          label="Select Department"
+          value={selectedDepartment}
+          options={departmentOptions}
+          onchange={handleChangeDepartment}>
+        </lightning-combobox>
+  
+        <template if:true={doctorData}>
+          <lightning-datatable
+            key-field="Id"
+            data={doctorData}
+            columns={columns}
+            hide-checkbox-column>
+          </lightning-datatable>
+        </template>
+  
+        <template if:true={error}>
+          <p class="slds-text-color_error">{error}</p>
+        </template>
+      </div>
+    </lightning-card>
+  </template>
